@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    background-color: rgba(0, 0, 0);
+    color: beige;
+    padding: 1rem;
+    border-radius: 100rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: large;
+    font-family: 'Workbench', sans-serif;
+}
+
+.nav-btns {
+    display: flex;
+}
+
+.btn-nav {
+    width: 5rem;
+    height: 1.5rem;
+    margin-right: 13px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-nav:hover {
+    background-color: black;
+    color: white;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 20px;
+}
+.section {
+    margin-top: 40px;
+}
+
+.section h2 {
+    font-size: 2rem;
+}
+
+.section-content {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px;
+    height: auto;
+}
+
+.social-links a:hover img {
+    filter: brightness(0.8);
+}
+.project{
+    padding: 10px;
+}
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 18px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    color: rgb(0, 0, 0);
+}
+.skills>div{
+    padding: 20px 0;
+    font-size: 30px;
+}
+.headers{
+    grid-column: 1/5;
+    text-align: center;
+}
+.headers{
+    grid-column: 1/5;
+    text-align: center;
+}
+.Skillset{
+    grid-column: 1/5;
+    text-align: center;
+}
+.code{
+    grid-column: 1/5;
+    display: flex;
+    padding: 10%;
+    justify-content: space-around;
+}
+.codeLang{
+    padding: 2%;
+    color: white;
+    border-radius: 50px;
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+  }
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .contact-form textarea {
+    height: 150px;
+  }
+
+  .contact-form input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+  }
