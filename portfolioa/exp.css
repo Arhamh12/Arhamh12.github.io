@@ -20,6 +20,8 @@ nav {
 .logo {
     font-size: large;
     font-family: 'Workbench', sans-serif;
+    text-decoration: none;
+    color: white;
 }
 
 .nav-btns {
