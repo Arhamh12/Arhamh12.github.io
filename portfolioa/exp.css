@@ -20,6 +20,9 @@ nav {
 .logo {
     font-size: large;
     font-family: 'Workbench', sans-serif;
+}
+
+.logo a{
     text-decoration: none;
     color: white;
 }
@@ -36,10 +39,18 @@ nav {
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
 }
+.btn-nav a{
+    text-decoration: none;
+    color: black;
+}
 
-.btn-nav:hover {
+.btn-nav:hover  {
     background-color: black;
     color: white;
+}
+.btn-nav:hover  a {
+    
+    color: rgb(255, 255, 255);
 }
 
 .main-content {

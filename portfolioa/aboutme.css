@@ -22,6 +22,11 @@ nav {
     font-family: 'Workbench', sans-serif;
 }
 
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
 .nav-btns {
     display: flex;
 }
@@ -33,6 +38,14 @@ nav {
     border: none;
     border-radius: 20px;
     background-color: rgb(255, 255, 255);
+}
+.btn-nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.btn-nav:hover  a {
+    
+    color: rgb(255, 255, 255);
 }
 
 .btn-nav:hover {
